@@ -1,0 +1,112 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #131842;
+  padding: 20px;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #674188;
+}
+
+.container h1 {
+  color: #674188;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.container h2 {
+  color: #674188;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  padding-bottom: 20px;
+}
+
+.form-check-input {
+  margin-right: 10px;
+}
+
+/* Table Styling */
+.table-container {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+  padding: 15px 20px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background-color: #674188;
+  color: #ffffff;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+tr:nth-child(even){
+  background-color: #E2BFD9;
+}
+
+tr:hover {
+  color: #674188;
+}
+
+.errorMsg {
+  color: #c82333;
+  margin-bottom: 15px;
+}
+
+/* Button Styling */
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 0.8rem;
+  transition: background-color 0.3s, transition 0.2s;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+.button-primary {
+  background-color: #674188;
+}
+
+.button-danger {
+  background-color: #dc3545;
+}
+
+.button-info {
+  background-color: #33bee5;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.button-add {
+  background-color: #533366;
+}
